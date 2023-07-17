@@ -1,0 +1,105 @@
+.container
+{
+  width:500px;
+  height:600px;
+  background-color: rgb(29, 29, 29);
+  margin: auto auto;
+  margin-top: 2%;
+  border-radius: 10px;
+}
+h1{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: sans-serif;
+  color: #497174;
+}
+
+.screen
+{
+  width:500px;
+  height:85px;
+  background-color:#5d5d5d;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.input
+{
+  width:493px;
+  height:81px;
+  background-color:#5d5d5d;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.keypad
+{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  gap:30px;
+  margin: 25px;
+  
+  
+}
+
+img{
+  position:absolute;
+  margin-left: 152px;
+
+}
+
+
+
+.key
+{
+  width:90px;
+  height:60px;
+  text-align: center;
+  color: rgb(189, 189, 25);
+  background-color:rgb(48, 47, 47);
+  border-radius: 60px;
+  font-size: 25px;
+  font-weight: bolder;
+  box-shadow: 3px gray;
+  border: 1px black;
+}
+
+.enter
+{
+  grid-row:span 4;
+  height:330px;
+  border-radius: 30px;
+  font-size: 2.5rem;
+  background-color: rgb(155, 187, 108);
+  color:rgb(24, 22, 22);
+}
+
+.C{
+  background-color: rgb(256, 60, 60);
+  color:rgb(35, 15, 15)
+}
+
+.num
+{
+  text-align: right;
+  padding-top: 30px;
+  padding-right: 10px;
+  font-size: 40px;
+  font-weight: 600;
+  
+}
+
+footer{
+  margin-top: 30px;
+  text-align: center;
+  color: rgb(42, 85, 98);
+  font-family: cursive;
+}
+
+.input[type]
+{
+  font-size: 40px;
+  color: rgb(99, 168, 99);
+  text-align: right;
+  font-weight: lighter;
+}
